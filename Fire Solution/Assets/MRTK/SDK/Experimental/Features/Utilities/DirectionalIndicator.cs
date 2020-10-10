@@ -37,6 +37,8 @@ namespace Microsoft.MixedReality.Toolkit.Experimental.Utilities
         public float ViewOffset = 0.3f;
 
         private bool indicatorShown = false;
+        public int CloseDistance = 2;
+        public int FarDistance = 15;
 
         protected override void Start()
         {
@@ -52,6 +54,19 @@ namespace Microsoft.MixedReality.Toolkit.Experimental.Utilities
             {
                 SetIndicatorVisibility(showIndicator);
             }
+
+            float ScaleFactor = Vector3.Distance(DirectionalTarget.position, Camera.main.transform.position);
+            if (ScaleFactor > FarDistance)
+            {
+                ScaleFactor = FarDistance;
+            }
+            if (ScaleFactor < CloseDistance)
+            {
+                ScaleFactor = CloseDistance;
+            }
+            float NormalFactor = (float)0.1 - (float)0.1 * ((ScaleFactor - CloseDistance) / (FarDistance - CloseDistance));
+            //Debug.Log(NormalFactor);
+            this.transform.localScale = new Vector3(NormalFactor, NormalFactor, NormalFactor);
         }
 
         private bool ShouldShowIndicator()
