@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a121d53909da5a44599ff795ff7b908f
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400000: IS 320 Group 2 Fire Solution 2020.Dependencies.msb4u
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 0e4dca1acba66fd478b3854f09a32ec7, type: 3}
+  buildEngine: 0
+  profiles: []

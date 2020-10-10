@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2T+bGVUoqa0vm5SU9wCkcQeKL5I+XtlFCGJ1z7isRrM9balIc0rqKuSmSQ1hjyILz+Ofdaw9mU6Qh/5ymdrWew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marti\\Documents\\GitHub\\Group-02-Fire-Solution\\Fire Solution\\Assets\\MRTK\\Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.windows.mixedreality.dotnetwinrt\\0.5.1049\\microsoft.windows.mixedreality.dotnetwinrt.0.5.1049.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
