@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 42
+  controlID: 79
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 43
+  controlID: 80
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,7 +266,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 44
+  controlID: 81
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,8 +286,8 @@ MonoBehaviour:
     y: 0
     width: 1237
     height: 668
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -359,20 +359,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SpeechSDK/Plugins
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SpeechSDK/Plugins
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\marti\Documents\GitHub\Group-02-Fire-Solution\Fire Solution
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 04680000
-    m_LastClickedID: 26628
-    m_ExpandedIDs: 000000002a260000de280000ea2800001c290000002b0000582b0000ba2b0000622c0000ba2c00002e2d0000ea2d0000502e0000942e0000322f0000c6300000e830000006310000383100008e31000028320000ba340000143500004a360000a8360000b23600002c3900003c390000b63a0000f03a0000f867000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 70}
+    m_SelectedIDs: a0280000
+    m_LastClickedID: 10400
+    m_ExpandedIDs: 00000000642600000829000044290000e02900002e2b0000e42b0000e22c0000542d0000102e0000762e0000b82e0000562f0000e6300000083100002231000052310000ce3400002a35000062360000c2360000cc3600004a390000c03a0000fa3a0000926700009467000096670000986700009a6700009c67000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a2600005a280000de280000ea2800001c290000002b0000ba2b0000f42b0000622c0000ba2c00002e2d00008e2d0000ea2d0000502e0000942e0000322f0000c6300000e830000006310000383100008e3100002832000016330000ba3400004a360000a8360000b23600002c3900003c390000b63a0000f03a0000
+    m_ExpandedIDs: 00000000642600000829000044290000e02900002e2b0000e42b0000e22c0000542d0000102e0000762e0000b82e0000562f0000e6300000083100002231000052310000ce3400002a35000062360000c2360000cc3600004a390000c03a0000fa3a0000926700009467000096670000986700009a6700009c670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,7 +428,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000000000007a3400009026000040280000782b0000e23400002a360000e0380000ce390000683a00003e3000006a860000
+    m_ExpandedInstanceIDs: c6230000000000007a3400009026000040280000782b0000e23400002a360000e0380000ce390000683a00003e3000006a8600007c930000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -521,21 +521,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 12cdffff82cefffff8d1fffffad1ffff02d2ffffb6d6ffff6ad7ffff70dfffffaee1ffffd6fbffff483e0000663e0000f83e0000423f0000843f0000d83f0000
+      m_ExpandedIDs: 3c36ffff86e4ffff44f8ffffd6fbffffb03d0000403e0000083f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Oak_Tree
-        m_OriginalName: Oak_Tree
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -3736
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.8747263, y: 17.612144, z: 3.8640099}
+    m_Target: {x: 1.3879639, y: 1.9532449, z: 2.7090516}
     speed: 2
-    m_Value: {x: 7.8747263, y: 17.612144, z: 3.8640099}
+    m_Value: {x: 1.3879639, y: 1.9532449, z: 2.7090516}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -606,13 +606,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.050784256, y: -0.9480552, z: 0.19653176, w: 0.24492386}
+    m_Target: {x: 0.04076049, y: -0.912313, z: 0.093755595, w: 0.3965269}
     speed: 2
-    m_Value: {x: 0.050784256, y: -0.9480552, z: 0.19653176, w: 0.24492386}
+    m_Value: {x: 0.04076049, y: -0.912313, z: 0.093755595, w: 0.3965269}
   m_Size:
-    m_Target: 22
+    m_Target: 1.9713408
     speed: 2
-    m_Value: 22
+    m_Value: 1.9713408
   m_Ortho:
     m_Target: 0
     speed: 2
