@@ -5,13 +5,15 @@ using UnityEngine;
 public class ToggleItem : MonoBehaviour
 {
     public bool toggleVariable = true;
-    void toggleActive()
+    public void toggleActive()
     {
         if (this.toggleVariable == true) {
-            this.toggleVariable = false;
+            toggleVariable = false;
+            gameObject.SetActive(false);
         }
         else if (this.toggleVariable == false) {
-            this.toggleVariable = true;
+            toggleVariable = true;
+            gameObject.SetActive(true);
         }
     }
 }
