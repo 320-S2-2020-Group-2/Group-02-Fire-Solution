@@ -67,7 +67,7 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 498}
+  m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
   controlID: 12
@@ -238,7 +238,7 @@ MonoBehaviour:
     y: 0
     width: 1430
     height: 947
-  m_MinSize: {x: 406, y: 498}
+  m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
   controlID: 25
@@ -263,8 +263,8 @@ MonoBehaviour:
     y: 0
     width: 1430
     height: 668
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
   controlID: 26
 --- !u!114 &12
@@ -359,20 +359,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/MRTK/SDK/Features/UX/Interactable/Themes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/MRTK/SDK/Features/UX/Interactable/Themes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\marti\Documents\GitHub\Group-02-Fire-Solution\Fire Solution
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 102}
-    m_SelectedIDs: 58310000
-    m_LastClickedID: 12632
-    m_ExpandedIDs: 0000000086260000c22600003e2900004a2900007e2900001c2a00006e2b00002a2c0000d82c0000302d0000a82d0000082e0000642e0000ca2e0000ee2e00000e2f0000ae2f000044310000b63100000c320000a83200003e3500007a350000d836000038370000423700002a380000c6390000d6390000123a0000923a0000523b00008c3b00006e74000000ca9a3b
+    scrollPos: {x: 0, y: 350}
+    m_SelectedIDs: 8e260000
+    m_LastClickedID: 9870
+    m_ExpandedIDs: 0000000088260000c4260000402900004c290000802900001e2a0000702b00002c2c0000da2c0000322d0000aa2d00000a2e0000662e0000cc2e0000f02e0000102f0000b02f000046310000b83100000e320000aa320000403500007c350000da3600003a370000443700002c38000084390000c8390000d8390000143a0000943a0000543b00008e3b00007e74000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000086260000c22600003e2900004a2900007e2900001c2a00006e2b00002a2c0000d82c0000302d0000a82d0000082e0000642e0000ca2e0000ee2e00000e2f0000ae2f000044310000b63100000c320000a83200003e3500007a350000d836000038370000423700002a380000c6390000d6390000123a0000923a0000523b00008c3b00006e740000
+    m_ExpandedIDs: 0000000088260000c4260000402900004c290000802900001e2a0000702b00002c2c0000da2c0000322d0000aa2d00000a2e0000662e0000cc2e0000f02e0000102f0000b02f000046310000b83100000e320000aa320000403500007c350000da3600003a370000443700002c380000c8390000d8390000143a0000943a0000543b00008e3b00007e740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 132}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 301
 --- !u!114 &15
@@ -518,10 +518,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: d6fbffff2a3f0000ba3f00001040000056400000
+      scrollPos: {x: 0, y: 121}
+      m_SelectedIDs: 0aedffff
+      m_LastClickedID: -4854
+      m_ExpandedIDs: f2eaffff1cebffff8eebffffb8ebffff5eedffffe2edffff3ceeffffd6fbfffffc3e0000c23f00002a4000006a400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.04177705, y: -1.9111131, z: 10.251225}
+    m_Target: {x: 0.25841397, y: 0.1385651, z: 8.019447}
     speed: 2
-    m_Value: {x: -0.04177705, y: -1.9111131, z: 10.251225}
+    m_Value: {x: 0.25841397, y: 0.1385651, z: 8.019447}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -606,13 +606,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.1067162, y: -0.0028534639, z: 0.00029516223, w: 0.9942854}
+    m_Target: {x: -0.031073196, y: 0.00762797, z: 0.00022609581, w: 0.999488}
     speed: 2
-    m_Value: {x: 0.1067162, y: -0.0028534639, z: 0.00029516223, w: 0.9942854}
+    m_Value: {x: -0.031073196, y: 0.00762797, z: 0.00022609581, w: 0.999488}
   m_Size:
-    m_Target: 9.912146
+    m_Target: 5.7802253
     speed: 2
-    m_Value: 9.912146
+    m_Value: 5.7802253
   m_Ortho:
     m_Target: 0
     speed: 2

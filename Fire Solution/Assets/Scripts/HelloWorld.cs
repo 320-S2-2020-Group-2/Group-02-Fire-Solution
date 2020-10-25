@@ -207,7 +207,7 @@ public class HelloWorld : MonoBehaviour
 
         if (Microphone.IsRecording(Microphone.devices[0]) && recognitionStarted == true)
         {
-            GameObject.Find("MyButton").GetComponentInChildren<Text>().text = "Stop";
+            GameObject.Find("MyButton").GetComponentInChildren<Text>().text = "Recording";
             int pos = Microphone.GetPosition(Microphone.devices[0]);
             int diff = pos - lastSample;
 
@@ -226,7 +226,7 @@ public class HelloWorld : MonoBehaviour
         }
         else if (!Microphone.IsRecording(Microphone.devices[0]) && recognitionStarted == false)
         {
-            GameObject.Find("MyButton").GetComponentInChildren<Text>().text = "Start";
+            GameObject.Find("MyButton").GetComponentInChildren<Text>().text = "Muted";
         }
     }
 }
