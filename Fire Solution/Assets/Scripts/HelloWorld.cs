@@ -201,7 +201,9 @@ public class HelloWorld : MonoBehaviour
             }
             if (outputText != null)
             {
+                outputText.fontSize = 28;
                 outputText.text = message;
+                outputText.fontSize = 28;
             }
         }
 
