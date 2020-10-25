@@ -8,10 +8,28 @@ public class WireFrameImproved : MonoBehaviour
     // Update is called once per frame
     public Material material;
     public Mesh mesh;
+    public bool toggleVariable = true;
+
+    public void toggleActive()
+    {
+        if (toggleVariable == true)
+        {
+            toggleVariable = false;
+        }
+        else if (toggleVariable == false)
+        {
+            toggleVariable = true;
+        }
+    }
 
     public void Update()
     {
         // will make the mesh appear in the Scene at origin position
-        Graphics.DrawMesh(mesh, this.transform.position, this.transform.rotation, material, 0);
+        if (toggleVariable)
+        {
+            Graphics.DrawMesh(mesh, this.transform.position, this.transform.rotation, material, 0);
+        }
+        
     }
+
 }

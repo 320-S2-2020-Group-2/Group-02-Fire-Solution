@@ -19,6 +19,8 @@ public class APIManager : MonoBehaviour
         }
         fighterString = fighterString.Substring(0, fighterString.Length - 2);
         GameObject fireObject = Instantiate(fireTemplate, new Vector3(0f, 4f, -8f), Quaternion.identity);
+        // makes it as child
+        fireObject.transform.SetParent(this.transform, true);
         FireManager fireManager = fireObject.GetComponent<FireManager>();
 
         fireManager.mrtkToolTip.ToolTipText = fighterString;
